@@ -1,0 +1,12 @@
+zuul.ignored-services: "*"
+zuul.prefix: /api
+zuul.routes.companycarrierservice: /companycarrier/**
+zuul.routes.companystockservice: /companystock/**
+zuul.routes.consignmentnoteservice: /consignmentnote/**
+zuul.routes.productservice: /product/**
+zuul.routes.stockservice: /stock/**
+zuul.routes.transportservice: /transport/**
+zuul.sensitiveHeaders: Cookie,Set-Cookie
+zuul.debug.request: true
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
+#signing.key: "345345fsdfsf5345"

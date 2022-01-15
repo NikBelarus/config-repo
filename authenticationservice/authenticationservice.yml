@@ -10,6 +10,7 @@ spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 spring.zipkin.baseUrl: "http://localhost:9411"
+spring.sleuth.sampler.percentage: 1
 signing.key: "345345fsdfsf5345"
 
 server.contextPath: /auth

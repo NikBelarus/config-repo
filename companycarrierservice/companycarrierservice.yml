@@ -15,3 +15,5 @@ signing.key: "345345fsdfsf5345"
 logging.level.com.netflix: WARN
 logging.level.org.springframework.web: WARN
 logging.level.com.cargo: DEBUG
+
+spring.sleuth.sampler.percentage=1

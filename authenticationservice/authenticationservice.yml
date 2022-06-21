@@ -16,3 +16,5 @@ server.contextPath: /auth
 logging.level.com.netflix: WARN
 logging.level.org.springframework.web: WARN
 logging.level.com.cargo: DEBUG
+
+spring.sleuth.sampler.percentage=1

@@ -9,7 +9,7 @@ zuul.routes.transportservice: /transport/**
 zuul.routes.authenticationservice: /auth/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
 signing.key: "345345fsdfsf5345"
 
 logging.level.com.netflix: WARN

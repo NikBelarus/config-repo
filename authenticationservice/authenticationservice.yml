@@ -11,8 +11,6 @@ spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialec
 signing.key: "345345fsdfsf5345"
 app.jwtExpirationInMs: 3600000
 
-server.contextPath: /auth
-
 logging.level.com.netflix: WARN
 logging.level.org.springframework.web: WARN
 logging.level.com.cargo: DEBUG
